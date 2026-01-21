@@ -38,42 +38,83 @@
 
 We evaluated **SOTA commercial and mainstream open-source LLMs** using the XCOMET metric.
 
-| Rank | Model | Short | Long | Avg |
-|:----:|:-----|:------:|:------:|:----:|
-| 🥇 | **Gemini 3 Flash Preview** | 0.826 | 0.877 | **0.851** |
-| 🥈 | **Sakura-Qwen-2.5-14B** | 0.828 | 0.874 | **0.851** |
-| 🥉 | **GPT-5-chat-latest** | 0.825 | 0.877 | **0.850** |
-| 4 | Gemini 2.5 Flash | 0.824 | 0.877 | 0.850 |
-| 5 | Gemini 3 Pro Preview | 0.824 | 0.874 | 0.849 |
-| 6 | GPT-4.1 | 0.826 | 0.872 | 0.849 |
-| 7 | Claude Opus 4.5 | 0.824 | 0.873 | 0.848 |
-| 8 | Murasaki-8B-v0.1 | 0.817 | 0.877 | 0.847 |
-| 9 | Claude Haiku 4.5 | 0.824 | 0.869 | 0.846 |
-| 10 | Claude Haiku 4.5 Thinking | 0.825 | 0.865 | 0.845 |
-| 11 | Claude Sonnet 4.5 | 0.821 | 0.868 | 0.845 |
-| 12 | DeepSeek V3.2 | 0.820 | 0.874 | 0.844 |
-| 13 | TranslateGemma 12B | 0.820 | 0.869 | 0.844 |
-| 14 | DeepSeek V3.2 Thinking | 0.818 | 0.870 | 0.844 |
-| 15 | Qwen3-8B | 0.808 | 0.870 | 0.842 |
-| 16 | Qwen3-14B | 0.813 | 0.870 | 0.841 |
-| 17 | DeepSeek V3.1 | 0.814 | 0.871 | 0.840 |
-| 18 | Qwen3-235B-A22B | 0.825 | 0.867 | 0.840 |
-| 19 | Qwen3-32B | 0.821 | 0.870 | 0.840 |
-| 20 | Gemini 2.0 Flash | 0.818 | 0.869 | 0.838 |
-| 21 | GPT-5-mini | 0.814 | 0.865 | 0.838 |
-| 22 | Dolphin3.0-R1-Mistral-24B | 0.811 | 0.868 | 0.838 |
-| 23 | o3-mini | 0.811 | 0.865 | 0.838 |
-| 24 | GLM-4.7 | 0.810 | 0.866 | 0.838 |
-| 25 | Mistral Large | 0.808 | 0.867 | 0.836 |
-| 26 | DeepSeek V3.1 Think | 0.812 | 0.863 | 0.836 |
-| 27 | o3 | 0.811 | 0.864 | 0.835 |
-| 28 | Llama-3.1-405B | 0.808 | 0.866 | 0.835 |
-| 29 | Llama-3.1-70B | 0.809 | 0.856 | 0.832 |
-| 30 | Grok-4.1 | 0.809 | 0.854 | 0.825 |
-| 31 | Grok-4.1-fast | 0.800 | 0.865 | 0.825 |
-| 32 | Kimi-K2 | 0.783 | 0.841 | 0.812 |
-| 33 | TranslateGemma 4B | 0.792 | 0.809 | 0.800 |
-| 34 | Llama-3-8B | 0.720 | 0.763 | 0.740 |
+### Long Text Leaderboard (Primary)
+
+| Rank | Model | Long Score |
+|:----:|:------|:----------:|
+| 🥇 | **gemini-2.5-flash** | **0.8767** |
+| 🥈 | **murasaki-8b-v0.1** | **0.8767** |
+| 🥉 | **gemini-3-flash-preview** | **0.8765** |
+| 4 | gpt-5-chat-latest | 0.8765 |
+| 5 | gemini-3-pro-preview | 0.8744 |
+| 6 | deepseek-v3.2 | 0.8738 |
+| 7 | Sakura-qwen-2.5-14B | 0.8735 |
+| 8 | claude-opus-4-5-20251101 | 0.8732 |
+| 9 | gpt-4.1 | 0.8724 |
+| 10 | deepseek-v3.1 | 0.8714 |
+| 11 | qwen3-14b | 0.8702 |
+| 12 | deepseek-v3.2-thinking | 0.8701 |
+| 13 | qwen3-32b | 0.8699 |
+| 14 | qwen3-8b | 0.8698 |
+| 15 | translategemma-12b | 0.8688 |
+| 16 | claude-haiku-4-5-20251001 | 0.8688 |
+| 17 | gemini-2.0-flash | 0.8688 |
+| 18 | claude-sonnet-4-5-20250929 | 0.8682 |
+| 19 | Dolphin3.0-R1-Mistral-24B | 0.8678 |
+| 20 | mistral-large-latest | 0.8672 |
+| 21 | qwen3-235b-a22b | 0.8667 |
+| 22 | glm-4.7 | 0.8661 |
+| 23 | llama-3.1-405b | 0.8657 |
+| 24 | o3-mini | 0.8654 |
+| 25 | gpt-5-mini | 0.8651 |
+| 26 | grok-4.1-fast | 0.8648 |
+| 27 | claude-haiku-4-5-20251001-thinking | 0.8645 |
+| 28 | o3 | 0.8642 |
+| 29 | deepseek-v3-1-think-250821 | 0.8631 |
+| 30 | llama-3.1-70b | 0.8562 |
+| 31 | grok-4.1 | 0.8543 |
+| 32 | kimi-k2 | 0.8412 |
+| 33 | translategemma-4b | 0.8088 |
+| 34 | llama-3-8b | 0.7626 |
+
+### Short Text Leaderboard
+
+| Rank | Model | Short Score |
+|:----:|:------|:-----------:|
+| 🥇 | **Sakura-qwen-2.5-14B** | **0.8282** |
+| 🥈 | **gemini-3-flash-preview** | **0.8262** |
+| 🥉 | **gpt-4.1** | **0.8259** |
+| 4 | claude-haiku-4-5-20251001-thinking | 0.8253 |
+| 5 | qwen3-235b-a22b | 0.8250 |
+| 6 | gpt-5-chat-latest | 0.8249 |
+| 7 | gemini-2.5-flash | 0.8243 |
+| 8 | claude-haiku-4-5-20251001 | 0.8239 |
+| 9 | gemini-3-pro-preview | 0.8238 |
+| 10 | claude-opus-4-5-20251101 | 0.8236 |
+| 11 | qwen3-32b | 0.8211 |
+| 12 | claude-sonnet-4-5-20250929 | 0.8208 |
+| 13 | deepseek-v3.2 | 0.8199 |
+| 14 | translategemma-12b | 0.8198 |
+| 15 | deepseek-v3.2-thinking | 0.8179 |
+| 16 | gemini-2.0-flash | 0.8176 |
+| 17 | murasaki-8b-v0.1 | 0.8172 |
+| 18 | deepseek-v3.1 | 0.8144 |
+| 19 | gpt-5-mini | 0.8139 |
+| 20 | qwen3-14b | 0.8133 |
+| 21 | deepseek-v3-1-think-250821 | 0.8118 |
+| 22 | o3-mini | 0.8115 |
+| 23 | Dolphin3.0-R1-Mistral-24B | 0.8108 |
+| 24 | o3 | 0.8107 |
+| 25 | glm-4.7 | 0.8102 |
+| 26 | llama-3.1-70b | 0.8089 |
+| 27 | grok-4.1 | 0.8088 |
+| 28 | mistral-large-latest | 0.8084 |
+| 29 | qwen3-8b | 0.8079 |
+| 30 | llama-3.1-405b | 0.8077 |
+| 31 | grok-4.1-fast | 0.8002 |
+| 32 | translategemma-4b | 0.7923 |
+| 33 | kimi-k2 | 0.7830 |
+| 34 | llama-3-8b | 0.7198 |
 
 Full results: [results/final_comet_scores.jsonl](results/final_comet_scores.jsonl)
 
