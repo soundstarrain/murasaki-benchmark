@@ -121,7 +121,7 @@ To ensure fair scoring, we apply rigorous **anomaly detection** to all model out
 ### Data Quality Report (Valid/Total)
 
 | Model | Short | Long | Valid Rate |
-|:---|:---|:---|:---|
+|:------|:-----:|:----:|:----------:|
 | claude-haiku-4-5-20251001 | 100/100 | 100/100 | 100.0% |
 | claude-opus-4-5-20251101 | 100/100 | 100/100 | 100.0% |
 | murasaki-8b-v0.1 | 100/100 | 99/99 | 100.0% |
@@ -187,7 +187,7 @@ Covers major genres from commercial light novels and *Syosetu* web novels:
 |-----------|-------|
 | Temperature | 1.0 |
 | System Prompt | Standardized ([pipeline/config.py](pipeline/config.py)) |
-| Special Cases | Sakura models use official recommended settings |
+| Special Cases | Sakura & Murasaki-8B models use custom settings |
 | Metric | COMET (Unbabel/XCOMET-XL) |
 
 ---

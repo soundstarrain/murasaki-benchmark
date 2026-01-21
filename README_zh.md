@@ -119,8 +119,8 @@ graph LR
 
 ### 数据质量报告 (有效数/总数)
 
-| 模型 | Short | Long | 有效保留率 |
-|:---|:---|:---|:---|
+| 模型 | 短文本 (Short) | 长文本 (Long) | 有效保留率 |
+|:-----|:--------------:|:-------------:|:----------:|
 | claude-haiku-4-5-20251001 | 100/100 | 100/100 | 100.0% |
 | claude-opus-4-5-20251101 | 100/100 | 100/100 | 100.0% |
 | murasaki-8b-v0.1 | 100/100 | 99/99 | 100.0% |
@@ -186,7 +186,7 @@ graph LR
 |------|----|
 | Temperature | 1.0 |
 | System Prompt | 标准化 ([pipeline/config.py](pipeline/config.py)) |
-| 特殊情况 | Sakura 模型使用官方推荐设置 |
+| 特殊情况 | Sakura & Murasaki-8B 模型使用特定设置 |
 | 指标 | COMET (Unbabel/XCOMET-XL) |
 
 ---
