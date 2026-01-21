@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/License-GPL%203.0-blue.svg" alt="License">
   </a>
   <img src="https://img.shields.io/badge/Python-3.10+-green" alt="Python">
-  <img src="https://img.shields.io/badge/Models-33-orange" alt="Models">
+  <img src="https://img.shields.io/badge/Models-34-orange" alt="Models">
   <img src="https://img.shields.io/badge/Domain-ACGN-pink" alt="Domain">
 </p>
 
@@ -38,41 +38,42 @@
 
 We evaluated **SOTA commercial and mainstream open-source LLMs** using the XCOMET metric.
 
-| Rank | Model | Short | Long | Avg |
-|:----:|:------|:-----:|:----:|:---:|
-| 🥇 | **Gemini 3 Flash Preview** | 0.826 | 0.876 | **0.851** |
+| Rank | 排名 | 模型 | 短文本 | 长文本 | 平均 |
+|:----:|:-----|:------:|:------:|:----:|
+| 🥇 | **Gemini 3 Flash Preview** | 0.826 | 0.877 | **0.851** |
 | 🥈 | **Sakura-Qwen-2.5-14B** | 0.828 | 0.874 | **0.851** |
-| 🥉 | **GPT-5-chat-latest** | 0.825 | 0.876 | **0.850** |
-| 4 | Gemini 3 Pro Preview | 0.824 | 0.874 | 0.849 |
-| 5 | GPT-4.1 | 0.826 | 0.872 | 0.849 |
-| 6 | Claude Opus 4.5 | 0.824 | 0.873 | 0.848 |
-| 7 | Gemini 2.5 Flash | 0.824 | 0.873 | 0.848 |
-| 8 | Claude Haiku 4.5 | 0.824 | 0.870 | 0.847 |
-| 9 | Claude Haiku 4.5 Thinking | 0.825 | 0.866 | 0.845 |
-| 10 | DeepSeek V3.2 Thinking | 0.818 | 0.870 | 0.844 |
-| 11 | TranslateGemma 12B | 0.819 | 0.868 | 0.843 |
-| 12 | Claude Sonnet 4.5 | 0.815 | 0.868 | 0.841 |
-| 13 | o3-mini | 0.810 | 0.865 | 0.838 |
-| 14 | GLM-4.7 | 0.811 | 0.865 | 0.838 |
-| 15 | GPT-5-mini | 0.812 | 0.861 | 0.836 |
-| 16 | o3 | 0.811 | 0.863 | 0.835 |
-| 17 | Qwen3-14B | 0.810 | 0.857 | 0.833 |
-| 18 | Llama-3.1-70B | 0.809 | 0.852 | 0.831 |
-| 19 | Dolphin3.0-R1-Mistral-24B | 0.804 | 0.850 | 0.827 |
-| 20 | DeepSeek V3.1 Think | 0.808 | 0.839 | 0.823 |
-| 21 | Mistral Large | 0.802 | 0.845 | 0.823 |
-| 22 | DeepSeek V3.2 | 0.810 | 0.833 | 0.821 |
-| 23 | Llama-3.1-405B | 0.796 | 0.838 | 0.817 |
-| 24 | Gemini 2.0 Flash | 0.813 | 0.818 | 0.816 |
-| 25 | Kimi-K2 | 0.777 | 0.841 | 0.809 |
-| 26 | Qwen3-235B-A22B | 0.813 | 0.786 | 0.800 |
-| 27 | Qwen3-32B | 0.810 | 0.788 | 0.799 |
-| 28 | DeepSeek V3.1 | 0.773 | 0.799 | 0.786 |
-| 29 | Grok-4.1-fast | 0.761 | 0.785 | 0.773 |
-| 30 | TranslateGemma 4B | 0.791 | 0.743 | 0.767 |
-| 31 | Grok-4.1 | 0.763 | 0.771 | 0.767 |
-| 32 | Llama-3-8B | 0.719 | 0.756 | 0.737 |
-| 33 | Qwen3-8B | 0.714 | 0.752 | 0.733 |
+| 🥉 | **GPT-5-chat-latest** | 0.825 | 0.877 | **0.850** |
+| 4 | Gemini 2.5 Flash | 0.824 | 0.877 | 0.850 |
+| 5 | Gemini 3 Pro Preview | 0.824 | 0.874 | 0.849 |
+| 6 | GPT-4.1 | 0.826 | 0.872 | 0.849 |
+| 7 | Claude Opus 4.5 | 0.824 | 0.873 | 0.848 |
+| 8 | Murasaki-8B-v0.1 | 0.817 | 0.877 | 0.847 |
+| 9 | Claude Haiku 4.5 | 0.824 | 0.869 | 0.846 |
+| 10 | Claude Haiku 4.5 Thinking | 0.825 | 0.865 | 0.845 |
+| 11 | Claude Sonnet 4.5 | 0.821 | 0.868 | 0.845 |
+| 12 | DeepSeek V3.2 | 0.820 | 0.874 | 0.844 |
+| 13 | TranslateGemma 12B | 0.820 | 0.869 | 0.844 |
+| 14 | DeepSeek V3.2 Thinking | 0.818 | 0.870 | 0.844 |
+| 15 | Qwen3-8B | 0.808 | 0.870 | 0.842 |
+| 16 | Qwen3-14B | 0.813 | 0.870 | 0.841 |
+| 17 | DeepSeek V3.1 | 0.814 | 0.871 | 0.840 |
+| 18 | Qwen3-235B-A22B | 0.825 | 0.867 | 0.840 |
+| 19 | Qwen3-32B | 0.821 | 0.870 | 0.840 |
+| 20 | Gemini 2.0 Flash | 0.818 | 0.869 | 0.838 |
+| 21 | GPT-5-mini | 0.814 | 0.865 | 0.838 |
+| 22 | Dolphin3.0-R1-Mistral-24B | 0.811 | 0.868 | 0.838 |
+| 23 | o3-mini | 0.811 | 0.865 | 0.838 |
+| 24 | GLM-4.7 | 0.810 | 0.866 | 0.838 |
+| 25 | Mistral Large | 0.808 | 0.867 | 0.836 |
+| 26 | DeepSeek V3.1 Think | 0.812 | 0.863 | 0.836 |
+| 27 | o3 | 0.811 | 0.864 | 0.835 |
+| 28 | Llama-3.1-405B | 0.808 | 0.866 | 0.835 |
+| 29 | Llama-3.1-70B | 0.809 | 0.856 | 0.832 |
+| 30 | Grok-4.1 | 0.809 | 0.854 | 0.825 |
+| 31 | Grok-4.1-fast | 0.800 | 0.865 | 0.825 |
+| 32 | Kimi-K2 | 0.783 | 0.841 | 0.812 |
+| 33 | TranslateGemma 4B | 0.792 | 0.809 | 0.800 |
+| 34 | Llama-3-8B | 0.720 | 0.763 | 0.740 |
 
 Full results: [results/final_comet_scores.jsonl](results/final_comet_scores.jsonl)
 
@@ -101,6 +102,60 @@ graph LR
     
     style F fill:#f9f,stroke:#333,stroke-width:2px
 ```
+
+### Data Post-processing
+To ensure fair scoring, we apply rigorous **anomaly detection** to all model outputs before evaluation.
+- **Empty Check**: Outputs that are completely empty are removed.
+- **Length Ratio Check**: Outputs with a length ratio (Output/Source) `< 0.1` (too short) or `> 4.0` (hallucination loops) are excluded.
+- **Safety Refusals**: Explicit refusals (e.g., "I cannot assist...") are treated as invalid and filtered.
+*(This ensures that 0-score anomalies do not skew the distribution of valid translation scores.)*
+
+
+
+> **⚠️ 显著问题说明 / Known Issues**
+> 部分模型在生成结构或内容上存在严重问题，导致大量样本被数据清洗流程过滤。其最终分数仅基于少量有效样本计算，**可能无法代表其真实水平**：
+> * **Qwen3-8B**: 有效率极低（约 24.5%），大量输出包含过度重复或乱码。
+> * **Grok-4.1 / Grok-4.1-fast**: 有效率仅 50-60%，长文本生成能力极不稳定。
+> * **DeepSeek-V3.1 / Qwen3-32B**: 长文本有效率较低，存在截断或格式错误。
+
+### Data Quality Report (Valid/Total)
+
+| Model | Short | Long | Valid Rate |
+|:---|:---|:---|:---|
+| claude-haiku-4-5-20251001 | 100/100 | 100/100 | 100.0% |
+| claude-opus-4-5-20251101 | 100/100 | 100/100 | 100.0% |
+| murasaki-8b-v0.1 | 100/100 | 99/99 | 100.0% |
+| claude-haiku-4-5-20251001-thinking | 100/100 | 100/100 | 100.0% |
+| Sakura-qwen-2.5-14B | 100/100 | 100/100 | 100.0% |
+| gemini-3-pro-preview | 100/100 | 100/100 | 100.0% |
+| gemini-3-flash-preview | 100/100 | 99/100 | 99.5% |
+| glm-4.7 | 100/100 | 99/100 | 99.5% |
+| kimi-k2 | 99/100 | 100/100 | 99.5% |
+| deepseek-v3.2-thinking | 100/100 | 99/100 | 99.5% |
+| translategemma-12b | 99/100 | 100/100 | 99.5% |
+| gpt-4.1 | 100/100 | 98/100 | 99.0% |
+| gemini-2.5-flash | 100/100 | 98/100 | 99.0% |
+| gpt-5-chat-latest | 100/100 | 97/100 | 98.5% |
+| o3 | 99/99 | 85/88 | 98.4% |
+| o3-mini | 99/100 | 97/100 | 98.0% |
+| claude-sonnet-4-5-20250929 | 96/100 | 99/100 | 97.5% |
+| llama-3.1-70b | 100/100 | 94/100 | 97.0% |
+| qwen3-14b | 98/100 | 90/100 | 94.0% |
+| gpt-5-mini | 97/100 | 88/100 | 92.5% |
+| translategemma-4b | 92/100 | 92/100 | 92.0% |
+| Dolphin3.0-R1-Mistral-24B | 95/100 | 88/100 | 91.5% |
+| deepseek-v3-1-think-250821 | 96/100 | 84/100 | 90.0% |
+| mistral-large-latest | 95/100 | 84/100 | 89.5% |
+| llama-3.1-405b | 90/100 | 80/100 | 85.0% |
+| deepseek-v3.2 | 92/100 | 76/100 | 84.0% |
+| gemini-2.0-flash | 97/100 | 67/100 | 82.0% |
+| llama-3-8b | 85/100 | 78/100 | 81.5% |
+| qwen3-32b | 91/100 | 56/100 | 73.5% |
+| qwen3-235b-a22b | 92/100 | 52/100 | 72.0% |
+| grok-4.1-fast | 72/100 | 46/100 | 59.0% |
+| deepseek-v3.1 | 63/100 | 53/100 | 58.0% |
+| grok-4.1 | 71/100 | 41/100 | 56.0% |
+| qwen3-8b | 22/100 | 27/100 | 24.5% |
 
 ### Dataset Composition
 

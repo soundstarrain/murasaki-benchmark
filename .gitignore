@@ -44,7 +44,6 @@ env/
 # 临时文件
 *.log
 *.tmp
-*.bak
 
 # 压缩包
 *.rar
